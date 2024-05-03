@@ -3,9 +3,10 @@ public class Main {
 	
 	public static void main(String[] args) {
 		int n = 3;
-		
+		for(n=1;n<100000;n++) {
 		System.out.println("Ulam Sequence for n= "+ n+":");
 		UlamSequence(n);
+		}
 	}
 	
 	public static void UlamSequence(int n) {
